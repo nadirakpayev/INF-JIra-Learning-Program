@@ -7,6 +7,7 @@
 - [improved](improved/README.md) — улучшенный screening/onboarding-пакет, где:
   - `Блок 1` и `Блок 2` используются для решения по кандидату;
   - `Блок 3` и `Блок 4` используются как onboarding после `PASS`.
+- [knowledge base](knowledge%20base/README.md) — теоретическая база с внешними ресурсами и словарями терминов по уровням `базовый` и `продвинутый`.
 
 ## Что использовать
 
@@ -16,10 +17,14 @@
 Если нужен пакет для отбора и методической проверки:
 - начните с [improved/README.md](improved/README.md)
 
+Если нужна теоретическая подготовка кандидата:
+- начните с [knowledge base/README.md](knowledge%20base/README.md)
+
 ## Структура репозитория
 
 - `INF Learning Programm/` — candidate-facing учебные блоки, workshop'ы и методические материалы
 - `improved/` — staged-версия для screening и onboarding
+- `knowledge base/` — теоретическая база с ресурсами и словарями терминов
 - `Source Docs/` — исходный контекстный архив документов, не входит в целевой публикуемый контур
 - `Scripts Examples/` — вспомогательные извлечения и примеры, не входит в целевой публикуемый контур
 
@@ -34,3 +39,4 @@
 
 1. Откройте [INF Learning Programm/README.md](INF%20Learning%20Programm/README.md), если нужен полный учебный маршрут.
 2. Откройте [improved/README.md](improved/README.md), если нужен отборочный и onboarding-контур.
+3. Откройте [knowledge base/README.md](knowledge%20base/README.md), если нужно подтянуть теорию перед практикой.
