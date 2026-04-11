@@ -11,6 +11,15 @@
 
 Во всех SQL-примерах ниже используется общий учебный датасет из [00_Mini_Dataset.md](00_Mini_Dataset.md).
 
+## Схема
+
+```mermaid
+flowchart TD
+    A["Inner query"] --> B["Intermediate result"]
+    B --> C["Outer query"]
+    C --> D["Final result"]
+```
+
 ## Что нужно понять
 
 ### 1. Что такое подзапрос
@@ -40,6 +49,15 @@ WHERE author_id IN (
 ```
 
 Сначала выполняется внутренний запрос, потом его результат использует внешний.
+
+Схема выполнения:
+
+```mermaid
+flowchart LR
+    A["SELECT id FROM users WHERE followers_count > 10000"] --> B["List of user ids"]
+    B --> C["SELECT title FROM posts WHERE author_id IN (...)"]
+    C --> D["Posts of popular users"]
+```
 
 ### 2. Подзапрос в WHERE
 
@@ -121,6 +139,15 @@ WHERE author_id = (
   FROM users
   WHERE username = 'alex'
 );
+```
+
+Схема сравнения:
+
+```mermaid
+flowchart TD
+    A["IN"] --> A1["Compare with set of values"]
+    B["Scalar subquery"] --> B1["Compare with one value"]
+    C["EXISTS"] --> C1["Check whether rows exist"]
 ```
 
 ### 5. Когда подзапрос полезен, а когда мешает

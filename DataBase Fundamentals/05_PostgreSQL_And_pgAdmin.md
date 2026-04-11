@@ -4,6 +4,16 @@
 
 Этот модуль нужен, чтобы участник понимал, что именно он разворачивает локально и как связаны между собой сервер БД, база данных, клиент и инструмент администрирования.
 
+## Схема
+
+```mermaid
+flowchart TD
+    A["PostgreSQL server"] --> B["Database"]
+    B --> C["Tables"]
+    D["pgAdmin client"] --> A
+    E["User"] --> D
+```
+
 ## Что нужно понять
 
 ### 1. PostgreSQL server
@@ -35,6 +45,17 @@
 Простой пример:
 Шкаф и папка внутри шкафа — не одно и то же. Сервер похож на весь шкаф, а конкретная база данных похожа на отдельную большую папку внутри него.
 
+Схема уровней:
+
+```mermaid
+flowchart TD
+    A["Server"] --> B["Database 1"]
+    A --> C["Database 2"]
+    B --> D["Table users"]
+    B --> E["Table posts"]
+    B --> F["Table comments"]
+```
+
 ### 3. Client
 
 Клиент — это программа, через которую пользователь подключается к БД.
@@ -65,6 +86,16 @@
 Подробнее:
 - [pgAdmin Documentation](https://www.pgadmin.org/docs/pgadmin4/latest/index.html)
 - [pgAdmin Getting Started](https://www.pgadmin.org/docs/pgadmin4/latest/getting_started.html)
+
+Схема работы:
+
+```mermaid
+flowchart LR
+    U["User"] --> P["pgAdmin"]
+    P --> S["PostgreSQL server"]
+    S --> DB["Chosen database"]
+    DB --> T["Tables / data"]
+```
 
 ### 5. Connection
 

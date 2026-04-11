@@ -6,6 +6,16 @@
 
 Во всех SQL-примерах ниже используется общий учебный датасет из [00_Mini_Dataset.md](00_Mini_Dataset.md).
 
+## Схема
+
+```mermaid
+flowchart LR
+    A["Table"] --> B["SELECT"]
+    B --> C["WHERE"]
+    C --> D["ORDER BY"]
+    D --> E["Result"]
+```
+
 ## Что нужно понять
 
 ### 1. Что такое SQL-запрос
@@ -58,6 +68,15 @@ SELECT username
 FROM users
 WHERE city = 'Almaty'
 ORDER BY username;
+```
+
+Схема чтения запроса:
+
+```mermaid
+flowchart TD
+    A["SELECT username"] --> B["FROM users"]
+    B --> C["WHERE city = 'Almaty'"]
+    C --> D["ORDER BY username"]
 ```
 
 Подробнее:
@@ -177,6 +196,15 @@ WHERE post_id = 15;
 
 Этот запрос означает:
 "Посчитай, сколько комментариев у поста с `id = 15`".
+
+Схема агрегирования:
+
+```mermaid
+flowchart LR
+    A["comments"] --> B["Filter by post_id"]
+    B --> C["COUNT(*)"]
+    C --> D["Single number result"]
+```
 
 ### 8. UPDATE и DELETE
 

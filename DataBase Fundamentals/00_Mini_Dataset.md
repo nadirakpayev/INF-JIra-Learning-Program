@@ -7,6 +7,15 @@
 - все примеры ниже используют одни и те же таблицы;
 - благодаря этому запросы читаются как части одной системы, а не как случайные куски.
 
+## Схема датасета
+
+```mermaid
+flowchart LR
+    U["users"] -->|users.id = posts.author_id| P["posts"]
+    U -->|users.id = comments.author_id| C["comments"]
+    P -->|posts.id = comments.post_id| C
+```
+
 ## Таблица `users`
 
 Это пользователи социальной сети.
@@ -73,6 +82,15 @@
   `posts.id -> comments.post_id`
 - один пользователь может написать много комментариев:
   `users.id -> comments.author_id`
+
+Схема связей в стиле "один ко многим":
+
+```mermaid
+flowchart TD
+    A["One user"] --> B["Many posts"]
+    A --> C["Many comments"]
+    D["One post"] --> C
+```
 
 ## Зачем этот датасет нужен
 

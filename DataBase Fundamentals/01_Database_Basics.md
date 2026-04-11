@@ -6,6 +6,22 @@
 
 Его задача — дать базовые определения, без которых невозможно дальше нормально понять ни SQL, ни `JOIN`, ни подзапросы.
 
+## Схема
+
+```mermaid
+flowchart TD
+    A["Relational database"] --> B["Tables / relations"]
+    B --> C["Rows"]
+    B --> D["Columns"]
+    B --> E["Keys"]
+    E --> F["Primary key"]
+    E --> G["Foreign key"]
+    B --> H["Relationships"]
+    H --> I["One-to-one"]
+    H --> J["One-to-many"]
+    H --> K["Many-to-many"]
+```
+
 ## Что нужно понять
 
 ### 1. База данных
@@ -137,6 +153,15 @@
 
 Подробнее:
 - [SQL Academy, Структура реляционных баз данных](https://sql-academy.org/ru/guide/structure-of-relation-databases)
+
+Схема видов связей:
+
+```mermaid
+flowchart TD
+    A["One-to-one"] --> A1["One user -> one settings profile"]
+    B["One-to-many"] --> B1["One user -> many posts"]
+    C["Many-to-many"] --> C1["Many users <-> many subscriptions"]
+```
 
 ### 9. Ограничения
 
