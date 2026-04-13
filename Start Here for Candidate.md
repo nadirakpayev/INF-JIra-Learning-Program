@@ -4,25 +4,68 @@
 
 Если вам выдали этот репозиторий для прохождения программы, начинайте отсюда.
 
+## Полная карта прохождения
+
+```mermaid
+flowchart TB
+    S["Start Here for Candidate"]
+    M["Main Route: INF Learning Programm"]
+    B1["Block 1\nEnvironment and Core Processes"]
+    B2["Block 2\nCMDB Test Data"]
+    B3["Block 3\nCMDB Data Model and Advanced ITSM"]
+    B4["Block 4\nAvailability and Integration Design"]
+    DB["Parallel Track\nDataBase Fundamentals"]
+    DEV["Parallel Track\nDevelopers Theory Fundamentals"]
+    KB["Reference Track\nKnowledge Base"]
+
+    S --> M
+    M --> B1
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+
+    B1 -. "use as glossary and reference" .-> KB
+    B2 -. "use as glossary and reference" .-> KB
+    B3 -. "required if SQL / PostgreSQL / ER-model base is weak" .-> DB
+    B3 -. "use as glossary and reference" .-> KB
+    B4 -. "required if client-server / HTTP / DOM base is weak" .-> DEV
+    B4 -. "use as glossary and reference" .-> KB
+
+    click S "Start%20Here%20for%20Candidate.md" "Open start file"
+    click M "INF%20Learning%20Programm/README.md" "Open main route"
+    click B1 "INF%20Learning%20Programm/Block%201/01_Setup_Atlassian_Cloud.md" "Open Block 1"
+    click B2 "INF%20Learning%20Programm/Block%202/07_CMDB_Test_Data_Practice.md" "Open Block 2"
+    click B3 "INF%20Learning%20Programm/Block%203/08_CMDB_Data_Modeling_Practice.md" "Open Block 3"
+    click B4 "INF%20Learning%20Programm/Block%204/15_Availability_Management_Practice.md" "Open Block 4"
+    click DB "DataBase%20Fundamentals/README.md" "Open DataBase Fundamentals"
+    click DEV "Developers%20Theory%20Fundamentals/README.md" "Open Developers Theory Fundamentals"
+    click KB "Knowledge%20Base/README.md" "Open Knowledge Base"
+```
+
+Если ваш просмотрщик Markdown не делает узлы диаграммы кликабельными, используйте ссылки ниже.
+
+## Нажимаемая карта маршрута
+
+### Основной маршрут
+
+- [INF Learning Programm/README.md](INF%20Learning%20Programm/README.md) — главный маршрут программы.
+- [Block 1](INF%20Learning%20Programm/Block%201/01_Setup_Atlassian_Cloud.md) — создание среды и базовые процессы.
+- [Block 2](INF%20Learning%20Programm/Block%202/07_CMDB_Test_Data_Practice.md) — тестовые данные CMDB.
+- [Block 3](INF%20Learning%20Programm/Block%203/08_CMDB_Data_Modeling_Practice.md) — модель данных CMDB, PostgreSQL и расширенные ITSM-процессы.
+- [Block 4](INF%20Learning%20Programm/Block%204/15_Availability_Management_Practice.md) — доступность и проектирование интеграций.
+
+### Параллельные треки
+
+- [DataBase Fundamentals/README.md](DataBase%20Fundamentals/README.md) — открывайте перед блоком 3, если не хватает базы по РБД, SQL, `JOIN`, подзапросам, `PostgreSQL` и `pgAdmin`.
+- [Developers Theory Fundamentals/README.md](Developers%20Theory%20Fundamentals/README.md) — открывайте перед блоком 4, если не хватает базы по клиент-серверной архитектуре, `HTTP`, `HTML` и `DOM`.
+- [Knowledge Base/README.md](Knowledge%20Base/README.md) — используйте по ходу всей программы как словарь и справочный слой.
+
 ## Что является основным маршрутом
 
 Основной трек:
 - [INF Learning Programm/README.md](INF%20Learning%20Programm/README.md)
 
 Именно этот трек нужно проходить как главный.
-
-## Какие треки можно использовать параллельно
-
-Если по ходу прохождения не хватает базы, используйте параллельные треки:
-
-- [DataBase Fundamentals/README.md](DataBase%20Fundamentals/README.md)
-  Если не хватает уверенности по `SQL`, `PostgreSQL`, реляционным таблицам, ключам, `JOIN` и подзапросам.
-
-- [Developers Theory Fundamentals/README.md](Developers%20Theory%20Fundamentals/README.md)
-  Если не хватает базы по клиент-серверной архитектуре, `HTTP`, `HTML`, `DOM` и общей логике работы веб-приложений.
-
-- [Knowledge Base/README.md](Knowledge%20Base/README.md)
-  Если нужен дополнительный справочный слой, словари терминов и внешние материалы.
 
 ## Рекомендуемый порядок
 
@@ -38,8 +81,6 @@
 
 Их можно игнорировать, если вам отдельно не сказали обратное:
 - `Internal Materials/`
-- `Source Docs/`
-- `Scripts Examples/`
 
 ## Коротко
 

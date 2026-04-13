@@ -20,8 +20,8 @@
    - рабочие группы;
    - технологические окна.
 3. Как эти данные будут использоваться в:
-   - [08_CMDB_Data_Modeling_Practice.md](08_CMDB_Data_Modeling_Practice.md);
-   - [09_CMDB_PostgreSQL_pgAdmin_Practice.md](09_CMDB_PostgreSQL_pgAdmin_Practice.md).
+   - [08_CMDB_Data_Modeling_Practice.md](../Block%203/08_CMDB_Data_Modeling_Practice.md);
+   - [09_CMDB_PostgreSQL_pgAdmin_Practice.md](../Block%203/09_CMDB_PostgreSQL_pgAdmin_Practice.md).
 4. Почему датасет можно считать реалистичным и пригодным для учебной проверки.
 
 ## Формат сдачи

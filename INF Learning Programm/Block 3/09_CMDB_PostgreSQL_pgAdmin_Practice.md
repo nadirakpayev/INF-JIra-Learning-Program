@@ -19,8 +19,8 @@
 1. Установите PostgreSQL локально на свой компьютер без использования Docker или других контейнеров.
 2. Установите pgAdmin и подключитесь к локальному экземпляру PostgreSQL.
 3. Создайте отдельную учебную базу данных для CMDB.
-4. Создайте схему таблиц на основе модели из задания `08_CMDB_Data_Modeling_Practice.md`.
-5. Используйте данные из файла [CMDB_Test_Data_Reference.md](CMDB_Test_Data_Reference.md) как источник тестовых записей.
+4. Создайте схему таблиц на основе модели из задания [08_CMDB_Data_Modeling_Practice.md](08_CMDB_Data_Modeling_Practice.md).
+5. Используйте данные из файла [CMDB_Test_Data_Reference.md](../Block%202/CMDB_Test_Data_Reference.md) как источник тестовых записей.
 6. Реализуйте в PostgreSQL минимум следующие таблицы:
    - services;
    - systems;

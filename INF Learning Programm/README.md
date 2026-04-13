@@ -65,22 +65,22 @@
 
 ## Блок 1. Создание среды и базовые процессы
 
-- `01_Setup_Atlassian_Cloud.md` — `обязательно`  
+- [01_Setup_Atlassian_Cloud.md](Block%201/01_Setup_Atlassian_Cloud.md) — `обязательно`  
   Создание личной Cloud-среды и правил моделирования справочников.
 
-- `02_Service_Catalog_Practice.md` — `обязательно`  
+- [02_Service_Catalog_Practice.md](Block%201/02_Service_Catalog_Practice.md) — `обязательно`  
   Сервисный каталог на стандартных возможностях Jira Service Management.
 
-- `03_Incident_Management_Practice.md` — `обязательно`  
+- [03_Incident_Management_Practice.md](Block%201/03_Incident_Management_Practice.md) — `обязательно`  
   Настройка процесса инцидентов.
 
-- `04_Service_Request_Practice.md` — `обязательно`  
+- [04_Service_Request_Practice.md](Block%201/04_Service_Request_Practice.md) — `обязательно`  
   Настройка процесса сервисных запросов.
 
-- `05_Block_1_SLA_and_Queues_Practice.md` — `обязательно`  
+- [05_Block_1_SLA_and_Queues_Practice.md](Block%201/05_Block_1_SLA_and_Queues_Practice.md) — `обязательно`  
   Настройка SLA и очередей для базовых процессов блока 1.
 
-- `06_Block_1_Final_Workshop.md` — `обязательно`  
+- [06_Block_1_Final_Workshop.md](Block%201/06_Block_1_Final_Workshop.md) — `обязательно`  
   Финальная демонстрация блока 1.
 
 Результат блока 1:
@@ -93,13 +93,13 @@
 
 ## Блок 2. Тестовые данные CMDB
 
-- `07_CMDB_Test_Data_Practice.md` — `обязательно`  
+- [07_CMDB_Test_Data_Practice.md](Block%202/07_CMDB_Test_Data_Practice.md) — `обязательно`  
   Подготовка и использование учебных тестовых данных для CMDB.
 
-- `CMDB_Test_Data_Reference.md` — `обязательно`  
+- [CMDB_Test_Data_Reference.md](Block%202/CMDB_Test_Data_Reference.md) — `обязательно`  
   Справочный файл с готовым реалистичным датасетом, который используется в заданиях по CMDB.
 
-- `07_Block_2_Final_Workshop.md` — `обязательно`  
+- [07_Block_2_Final_Workshop.md](Block%202/07_Block_2_Final_Workshop.md) — `обязательно`  
   Короткая финальная демонстрация блока 2.
 
 Результат блока 2:
@@ -113,25 +113,25 @@
 - [DataBase Fundamentals/README.md](../DataBase%20Fundamentals/README.md) — `обязательно`, если не хватает базы по РБД, SQL, ключам, связям, `JOIN`, подзапросам, `PostgreSQL` или `pgAdmin`;
 - [Knowledge Base/README.md](../Knowledge%20Base/README.md) — `рекомендуется`, если нужно быстро освежить термины по процессам и модели данных.
 
-- `08_CMDB_Data_Modeling_Practice.md` — `обязательно`  
+- [08_CMDB_Data_Modeling_Practice.md](Block%203/08_CMDB_Data_Modeling_Practice.md) — `обязательно`  
   Абстрактная CMDB как реляционная модель данных.
 
-- `09_CMDB_PostgreSQL_pgAdmin_Practice.md` — `обязательно`  
+- [09_CMDB_PostgreSQL_pgAdmin_Practice.md](Block%203/09_CMDB_PostgreSQL_pgAdmin_Practice.md) — `обязательно`  
   Развертывание локальной PostgreSQL без контейнеров и перенос CMDB-модели в реальную БД через pgAdmin.
 
-- `10_Major_Incident_Practice.md` — `обязательно`  
+- [10_Major_Incident_Practice.md](Block%203/10_Major_Incident_Practice.md) — `обязательно`  
   Процесс значительных инцидентов.
 
-- `11_Problem_Management_Practice.md` — `обязательно`  
+- [11_Problem_Management_Practice.md](Block%203/11_Problem_Management_Practice.md) — `обязательно`  
   Процесс проблем.
 
-- `12_Change_Management_Practice.md` — `обязательно`  
+- [12_Change_Management_Practice.md](Block%203/12_Change_Management_Practice.md) — `обязательно`  
   Процесс изменений.
 
-- `13_Block_3_SLA_and_Queues_Practice.md` — `обязательно`  
+- [13_Block_3_SLA_and_Queues_Practice.md](Block%203/13_Block_3_SLA_and_Queues_Practice.md) — `обязательно`  
   Настройка SLA и очередей для процессов блока 3.
 
-- `14_Block_3_Final_Workshop.md` — `обязательно`  
+- [14_Block_3_Final_Workshop.md](Block%203/14_Block_3_Final_Workshop.md) — `обязательно`  
   Финальная демонстрация блока 3.
 
 Результат блока 3:
@@ -147,16 +147,16 @@
 - [Developers Theory Fundamentals/README.md](../Developers%20Theory%20Fundamentals/README.md) — `обязательно`, если не хватает базы по клиент-серверной архитектуре, `HTTP` и общей логике веб-взаимодействия;
 - [Knowledge Base/README.md](../Knowledge%20Base/README.md) — `рекомендуется`, если нужно освежить термины по доступности, интеграциям и процессным ролям.
 
-- `15_Availability_Management_Practice.md` — `опционально`  
+- [15_Availability_Management_Practice.md](Block%204/15_Availability_Management_Practice.md) — `опционально`  
   Опциональный модуль по управлению доступностью.
 
-- `16_Integration_Model_Design_Practice.md` — `рекомендуется`  
+- [16_Integration_Model_Design_Practice.md](Block%204/16_Integration_Model_Design_Practice.md) — `рекомендуется`  
   Проектирование интеграционных моделей и потоков данных без реализации интеграций.
 
-- `17_Block_4_SLA_and_Queues_Practice.md` — `рекомендуется`  
+- [17_Block_4_SLA_and_Queues_Practice.md](Block%204/17_Block_4_SLA_and_Queues_Practice.md) — `рекомендуется`  
   Настройка SLA и очередей для аналитических и проектных сущностей блока 4.
 
-- `18_Block_4_Final_Workshop.md` — `рекомендуется`  
+- [18_Block_4_Final_Workshop.md](Block%204/18_Block_4_Final_Workshop.md) — `рекомендуется`  
   Финальная демонстрация блока 4.
 
 Результат блока 4:
@@ -167,7 +167,6 @@
 
 ## Принятые допущения
 
-- Основа программы: все технические задания, найденные в папке проекта, а регламенты и руководства использованы как контекст для ролей, шагов пользователей и ожидаемого поведения.
 - Целевой ландшафт: Jira Service Management Cloud.
 - Базовая точка входа в программу: собственный бесплатный cloud-site без использования trial и без зависимости от Assets.
 - Там, где это возможно, технические справочники внутри Jira моделируются через `Components`, `select list` и согласованные таблицы соответствий.

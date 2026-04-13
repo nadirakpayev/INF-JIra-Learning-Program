@@ -6,8 +6,8 @@
 
 Основной рабочий контур программы находится в:
 - `INF Learning Programm/README.md`
-- файлах блоков внутри `INF Learning Programm/`
-- `INF Learning Programm/00_Examiner_Methodical_Guide.md`
+- файлах блоков внутри `INF Learning Programm/Block 1/`, `INF Learning Programm/Block 2/`, `INF Learning Programm/Block 3/` и `INF Learning Programm/Block 4/`
+- `Internal Materials/00_Examiner_Methodical_Guide.md`
 
 ### Что не входит в анализ как часть задания
 
