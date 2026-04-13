@@ -1,6 +1,11 @@
 # INF Jira Learning Program
 
-Репозиторий содержит учебную и отборочную программу по `Jira Service Management Cloud`, а также вспомогательные теоретические треки для подготовки кандидатов, стажеров и джунов.
+Репозиторий содержит учебную программу по `Jira Service Management Cloud`, а также вспомогательные теоретические треки для подготовки кандидатов, стажеров и джунов.
+
+## Candidate Start
+
+Если вы кандидат, стажер или джун и вам нужно понять, с чего начать:
+- откройте [Start Here for Candidate.md](Start%20Here%20for%20Candidate.md)
 
 ## Главный маршрут
 
@@ -20,12 +25,11 @@
 - снизить риск того, что участник "падает" не на логике заданий, а на отсутствии фундаментальных знаний;
 - дать общий технический язык для дальнейшей работы.
 
-## Дополнительные контуры
+## Дополнительные candidate-facing материалы
 
 - [Knowledge Base](Knowledge%20Base/README.md) — теоретическая база с внешними ресурсами и словарями терминов по уровням `базовый` и `продвинутый`;
-- [Improved](Improved/README.md) — улучшенный screening/onboarding-пакет, где:
-  - `Блок 1` и `Блок 2` используются для решения по кандидату;
-  - `Блок 3` и `Блок 4` используются как onboarding после `PASS`.
+- [DataBase Fundamentals](DataBase%20Fundamentals/README.md) — параллельный трек по базам данных;
+- [Developers Theory Fundamentals](Developers%20Theory%20Fundamentals/README.md) — параллельный трек по базовой теории для разработчика.
 
 ## Что использовать
 
@@ -41,16 +45,13 @@
 Если нужна теоретическая подготовка кандидата:
 - начните с [Knowledge Base/README.md](Knowledge%20Base/README.md)
 
-Если нужен пакет для отбора и методической проверки:
-- начните с [Improved/README.md](Improved/README.md)
-
 ## Структура репозитория
 
 - `INF Learning Programm/` — основной практический трек
 - `DataBase Fundamentals/` — параллельный трек по базам данных
 - `Developers Theory Fundamentals/` — параллельный трек по базовой теории для разработчика
 - `Knowledge Base/` — дополнительная теоретическая база и словари
-- `Improved/` — внутренний screening/onboarding-контур
+- `Internal Materials/` — внутренние материалы для лидов, экзаменаторов и методической работы
 - `Source Docs/` — исходный контекстный архив документов, не входит в целевой публикуемый контур
 - `Scripts Examples/` — вспомогательные извлечения и примеры, не входит в целевой публикуемый контур
 
@@ -60,6 +61,11 @@
 2. При необходимости параллельно использовать [DataBase Fundamentals/README.md](DataBase%20Fundamentals/README.md), если не хватает базы по SQL и PostgreSQL.
 3. При необходимости параллельно использовать [Developers Theory Fundamentals/README.md](Developers%20Theory%20Fundamentals/README.md), если не хватает базы по клиент-серверной архитектуре, HTTP и DOM.
 4. Использовать [Knowledge Base/README.md](Knowledge%20Base/README.md) как дополнительный справочный слой.
+
+## Внутренний контур
+
+Если нужны материалы для лида, экзаменатора или внутренней методической работы:
+- используйте [Internal Materials/README.md](Internal%20Materials/README.md)
 
 ## Важные правила
 
@@ -74,4 +80,4 @@
 2. Откройте [DataBase Fundamentals/README.md](DataBase%20Fundamentals/README.md), если параллельно нужно подтянуть базы данных.
 3. Откройте [Developers Theory Fundamentals/README.md](Developers%20Theory%20Fundamentals/README.md), если параллельно нужно подтянуть базовую теорию для разработчика.
 4. Откройте [Knowledge Base/README.md](Knowledge%20Base/README.md), если нужен дополнительный слой теории и внешних ресурсов.
-5. Откройте [Improved/README.md](Improved/README.md), если нужен отдельный screening/onboarding-контур.
+5. Если вы не кандидат, а экзаменатор или лид, откройте [Internal Materials/README.md](Internal%20Materials/README.md).
