@@ -47,7 +47,7 @@
 ## 5. Components, поля и формы
 
 - Что такое Jira components:
-  [Atlassian Support](https://support.atlassian.com/jira-software-cloud/docs/organize-work-with-components/)
+  [Atlassian Support](https://support.atlassian.com/jira-software-cloud/docs/what-are-jira-components/)
 - Как смотреть components проекта:
   [Atlassian Support](https://support.atlassian.com/jira-software-cloud/docs/view-a-projects-components/)
 - Как настраивать поля в ITSM-проекте:
@@ -120,7 +120,7 @@
 - Что такое HTTP:
   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - Введение в DOM:
-  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 - Базовый синтаксис HTML:
   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax)
 - Клиент и сервер в вебе:

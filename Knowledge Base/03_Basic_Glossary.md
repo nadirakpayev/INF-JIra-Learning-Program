@@ -116,7 +116,7 @@
 Проектный классификатор Jira, который помогает группировать работу по системам, доменам или областям ответственности.
 
 Углубиться:
-- [What are Jira components?](https://support.atlassian.com/jira-software-cloud/docs/organize-work-with-components/)
+- [What are Jira components?](https://support.atlassian.com/jira-software-cloud/docs/what-are-jira-components/)
 
 ## 17. Form
 
@@ -145,7 +145,7 @@
 Упорядоченная модель данных о сервисах, системах, конфигурационных единицах и их связях.
 
 Углубиться:
-- [ITSM Glossary](https://success.atlassian.com/solution-paths/solution-guides/itsm-solution-delivery-guide/itsm-glossary)
+- [What is a CMDB?](https://www.atlassian.com/itsm/it-asset-management/cmdb)
 
 ## 21. Relational model
 
@@ -243,7 +243,7 @@
 Внутреннее представление HTML-документа в памяти браузера, с которым может работать JavaScript.
 
 Углубиться:
-- [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+- [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 ## 35. API
 

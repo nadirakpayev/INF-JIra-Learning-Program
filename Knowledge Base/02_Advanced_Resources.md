@@ -65,8 +65,8 @@
 
 - Что такое services в Jira Service Management:
   [Atlassian Support](https://support.atlassian.com/jira-service-management-cloud/docs/what-is-services/)
-- ITSM glossary:
-  [Atlassian Success Central](https://success.atlassian.com/solution-paths/solution-guides/itsm-solution-delivery-guide/itsm-glossary)
+- Что такое CMDB и как Atlassian объясняет эту сущность:
+  [Atlassian](https://www.atlassian.com/itsm/it-asset-management/cmdb)
 
 Рекомендация:
 - даже если в вашей учебной программе основной упор сделан на `Components`, полезно понимать, как Atlassian трактует `service` как отдельную сущность.
